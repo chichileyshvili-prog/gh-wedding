@@ -1,4 +1,3 @@
-
 *{
 margin:0;
 padding:0;
@@ -290,7 +289,6 @@ font-size:28px;
 
 }
 
-
 .timer-big{
 font-family:'Cormorant Garamond',serif !important;
 color:#8f7768 !important;
@@ -313,7 +311,6 @@ font-size:38px !important;
 }
 
 }
-
 
 .hero{
 padding-top:0px !important;
@@ -351,14 +348,11 @@ font-weight:600;
 color:#5d5a56;
 }
 
-
-/* HERO brighter */
 .hero h1{
 color:#f2e7da !important;
 text-shadow:0 8px 28px rgba(0,0,0,.28) !important;
 }
 
-/* unify typography */
 .date-big,
 .main-text,
 .official,
@@ -372,7 +366,6 @@ text-shadow:0 8px 28px rgba(0,0,0,.28) !important;
 color:#5f5a55 !important;
 }
 
-/* footer elegant names */
 .footer p{
 font-family:'Cormorant Garamond',serif !important;
 font-size:36px !important;
@@ -380,13 +373,11 @@ letter-spacing:1px;
 line-height:1.5;
 }
 
-/* RSVP heading softer */
 .rsvp h2{
 font-family:'Cormorant Garamond',serif !important;
 font-size:68px !important;
 }
 
-/* countdown elegant */
 .timer-big{
 font-family:'Cormorant Garamond',serif !important;
 font-size:56px !important;
@@ -394,14 +385,11 @@ font-weight:600;
 letter-spacing:1px;
 }
 
-/* telegram */
 .telegram-btn{
 font-size:20px;
 background:#6f8f8c !important;
 color:white !important;
 }
-
-
 
 .photo-black{
 position:relative;
@@ -410,8 +398,8 @@ position:relative;
 .story-quote{
 position:absolute;
 top:70px;
-right:170px;
-max-width:420px;
+right:290px !important;
+max-width:520px !important;
 text-align:right;
 font-family:'Cormorant Garamond',serif;
 font-size:44px;
@@ -423,24 +411,6 @@ opacity:.92;
 text-shadow:0 2px 8px rgba(255,255,255,.12);
 }
 
-@media(max-width:900px){
-
-.story-quote{
-top:35px;
-right:55px;
-max-width:240px;
-font-size:24px;
-line-height:1.4;
-}
-
-}
-
-
-.story-quote{
-right:290px !important;
-max-width:520px !important;
-}
-
 .story-line{
 white-space:nowrap;
 display:inline-block;
@@ -449,8 +419,11 @@ display:inline-block;
 @media(max-width:900px){
 
 .story-quote{
+top:35px;
 right:75px !important;
 max-width:260px !important;
+font-size:24px;
+line-height:1.4;
 }
 
 .story-line{
