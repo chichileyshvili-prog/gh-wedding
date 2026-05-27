@@ -106,12 +106,45 @@ color:#111;
 }
 
 .restaurant-section{
+position:relative;
 padding:120px 24px;
 background:#ece3d8;
-display:flex;
-flex-direction:column;
-align-items:flex-start;
-gap:40px;
+display:block;
+}
+
+.restaurant-image{
+position:relative;
+}
+
+.restaurant-content{
+position:absolute;
+top:170px;
+left:60px;
+z-index:5;
+color:white;
+}
+
+.restaurant-content h2{
+font-family:'Cormorant Garamond',serif;
+font-size:72px;
+line-height:1;
+margin-top:18px;
+color:white;
+text-shadow:0 4px 18px rgba(0,0,0,.35);
+}
+
+.small-title{
+font-size:16px;
+letter-spacing:6px;
+color:white !important;
+}
+
+.restaurant-image img{
+width:100%;
+height:auto;
+border-radius:34px;
+display:block;
+margin-bottom:40px;
 }
 
 .restaurant-image img{
@@ -278,6 +311,15 @@ font-size:54px;
 height:auto;
 }
 
+.restaurant-content{
+top:95px;
+left:40px;
+}
+
+.restaurant-content h2{
+font-size:54px;
+}
+
 .phrase-block{
 font-size:30px;
 padding-top:90px;
@@ -420,8 +462,8 @@ display:inline-block;
 
 .story-quote{
 top:35px;
-right:20px !important;
-max-width:220px !important;
+right:75px !important;
+max-width:260px !important;
 font-size:24px;
 line-height:1.4;
 }
