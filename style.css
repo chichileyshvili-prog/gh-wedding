@@ -232,219 +232,26 @@ opacity:1;
 transform:none;
 }
 
-@media(max-width:900px){
-
-.hero{
-padding-top:10px;
-}
-
-.hero-quote{
-font-size:16px;
-}
-
-.hero h1{
-font-size:52px;
-}
-
-.date-big{
-font-size:58px;
-}
-
-.main-text{
-font-size:22px;
-}
-
-.official{
-font-size:18px;
-}
-
-.photo-overlay-text{
-font-size:18px;
-top:60px;
-width:90%;
-}
-
-.restaurant-section{
-grid-template-columns:1fr;
-}
-
-.restaurant-content h2,
-.rsvp h2,
-.footer h2{
-font-size:54px;
-}
-
-.restaurant-image img{
-height:70vh;
-}
-
-.phrase-block{
-font-size:30px;
-padding-top:90px;
-}
-
-.timer-big{
-font-size:28px;
-}
-
-}
-
-.timer-big{
-font-family:'Cormorant Garamond',serif !important;
-color:#8f7768 !important;
-letter-spacing:1px;
-font-size:58px !important;
-font-weight:600;
-}
-
-.rsvp h2{
-font-family:'Cormorant Garamond',serif;
-color:#7d6759;
-font-weight:600;
-letter-spacing:1px;
-}
 
 @media(max-width:900px){
 
-.timer-big{
-font-size:38px !important;
+.restaurant-content{
+margin-bottom:28px;
+padding-left:0;
 }
-
-}
-
-.hero{
-padding-top:0px !important;
-}
-
-.hero-content{
-padding-top:0px;
-}
-
-.hero h1{
-color:#e7d8c8 !important;
-text-shadow:0 6px 20px rgba(0,0,0,.20) !important;
-}
-
-.btn,
-.telegram-btn{
-background:#6f8f8c !important;
-}
-
-.small-title,
-.guest-time,
-.timer-big,
-.rsvp h2{
-color:#6f8f8c !important;
-}
-
-.timer-big{
-font-family:'Cormorant Garamond',serif !important;
-font-size:58px !important;
-font-weight:600;
-}
-
-.restaurant-content h2,
-.footer h2{
-color:#5d5a56;
-}
-
-.hero h1{
-color:#f2e7da !important;
-text-shadow:0 8px 28px rgba(0,0,0,.28) !important;
-}
-
-.date-big,
-.main-text,
-.official,
-.restaurant-content p,
-.guest-time,
-.phrase-block,
-.timer-big,
-.rsvp h2,
-.telegram-btn,
-.footer p{
-color:#5f5a55 !important;
-}
-
-.footer p{
-font-family:'Cormorant Garamond',serif !important;
-font-size:36px !important;
-letter-spacing:1px;
-line-height:1.5;
-}
-
-.rsvp h2{
-font-family:'Cormorant Garamond',serif !important;
-font-size:68px !important;
-}
-
-.timer-big{
-font-family:'Cormorant Garamond',serif !important;
-font-size:56px !important;
-font-weight:600;
-letter-spacing:1px;
-}
-
-.telegram-btn{
-font-size:20px;
-background:#6f8f8c !important;
-color:white !important;
-}
-
-.photo-black{
-position:relative;
-}
-
-.story-quote{
-position:absolute;
-top:60px;
-right:35px;
-text-align:right;
-color:#2f2f2f;
-font-family:'Cormorant Garamond',serif;
-max-width:240px;
-z-index:5;
-}
-
-.story-line{
-white-space:nowrap;
-display:inline-block;
-}
-
-@media(max-width:900px){
-
-.story-quote{
-position:absolute;
-top:60px;
-right:35px;
-text-align:right;
-color:#2f2f2f;
-font-family:'Cormorant Garamond',serif;
-max-width:240px;
-z-index:5;
-}
-
-.story-line{
-white-space:normal;
-}
-
-}
-
-
-@media(max-width:900px){
 
 .restaurant-content h2{
 font-size:54px;
 }
 
 .story-quote{
-top:50px;
-right:25px;
-max-width:200px;
+top:72px;
+right:12px;
+max-width:250px;
 }
 
 .story-quote .story-line{
-font-size:20px;
+font-size:22px;
 }
 
 }
