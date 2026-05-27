@@ -235,23 +235,49 @@ transform:none;
 
 @media(max-width:900px){
 
+.restaurant-section{
+display:block !important;
+padding:90px 24px !important;
+}
+
 .restaurant-content{
-margin-bottom:28px;
-padding-left:0;
+display:block !important;
+position:relative !important;
+width:100% !important;
+margin-bottom:28px !important;
+padding-left:0 !important;
+}
+
+.restaurant-image{
+width:100% !important;
+display:block !important;
+}
+
+.restaurant-image img{
+width:100% !important;
+height:auto !important;
+display:block !important;
+border-radius:34px !important;
 }
 
 .restaurant-content h2{
-font-size:54px;
+font-size:58px !important;
+margin-top:10px !important;
 }
 
 .story-quote{
-top:72px;
-right:12px;
-max-width:250px;
+position:absolute !important;
+top:78px !important;
+right:18px !important;
+max-width:250px !important;
+text-align:right !important;
+z-index:5 !important;
 }
 
 .story-quote .story-line{
-font-size:22px;
+font-size:22px !important;
+line-height:1.15 !important;
+margin-top:10px !important;
 }
 
 }
