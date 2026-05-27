@@ -39,20 +39,12 @@ width:92%;
 max-width:1000px;
 }
 
-.hero-quote{
-font-size:20px;
-color:white;
-margin-bottom:28px;
-letter-spacing:1px;
-opacity:.9;
-}
-
 .hero h1{
 font-family:'Cormorant Garamond',serif;
 font-size:clamp(58px,8vw,104px);
 line-height:.9;
-color:white;
-text-shadow:0 8px 30px rgba(0,0,0,.35);
+color:#f2e7da;
+text-shadow:0 8px 28px rgba(0,0,0,.28);
 }
 
 .date-section{
@@ -65,18 +57,21 @@ background:#f3ece4;
 font-family:'Cormorant Garamond',serif;
 font-size:92px;
 margin-bottom:30px;
+color:#5f5a55;
 }
 
 .main-text{
 font-size:28px;
 line-height:1.7;
 margin-bottom:40px;
+color:#5f5a55;
 }
 
 .official{
 font-size:22px;
 line-height:1.8;
 opacity:.85;
+color:#5f5a55;
 }
 
 .photo-black{
@@ -92,47 +87,33 @@ margin:auto;
 border-radius:34px;
 }
 
-.photo-overlay-text{
+.story-quote{
 position:absolute;
-top:100px;
-left:50%;
-transform:translateX(-50%);
-width:80%;
-text-align:center;
-font-size:30px;
-line-height:1.6;
-font-weight:500;
-color:#111;
+top:78px;
+right:40px;
+max-width:190px;
+text-align:right;
+font-family:'Cormorant Garamond',serif;
+font-size:46px;
+line-height:1.2;
+color:#2f2f2f;
+z-index:5;
+}
+
+.story-line{
+display:block;
+margin-top:12px;
+font-size:26px;
+line-height:1.1;
 }
 
 .restaurant-section{
 padding:120px 24px;
-display:grid;
-grid-template-columns:1fr 1fr;
-gap:60px;
-align-items:center;
 background:#ece3d8;
 }
 
-.restaurant-image img{
-width:100%;
-height:760px;
-object-fit:cover;
-border-radius:34px;
-}
-
-.restaurant-content h2,
-.rsvp h2,
-.footer h2{
-font-family:'Cormorant Garamond',serif;
-font-size:74px;
-margin-bottom:24px;
-}
-
-.restaurant-content p{
-font-size:24px;
-line-height:1.8;
-margin-bottom:26px;
+.restaurant-content{
+margin-bottom:36px;
 }
 
 .small-title{
@@ -144,10 +125,32 @@ margin-bottom:20px;
 color:#5e7a76;
 }
 
+.restaurant-content h2{
+font-family:'Cormorant Garamond',serif;
+font-size:74px;
+margin-bottom:10px;
+color:#5d5a56;
+}
+
+.restaurant-image img{
+width:100%;
+border-radius:34px;
+display:block;
+margin-bottom:36px;
+}
+
+.restaurant-info p{
+font-size:24px;
+line-height:1.8;
+margin-bottom:26px;
+color:#5f5a55;
+}
+
 .guest-time{
 font-size:28px;
 font-weight:600;
 margin-bottom:30px;
+color:#6f8f8c;
 }
 
 .btn,
@@ -155,16 +158,11 @@ margin-bottom:30px;
 display:inline-block;
 padding:18px 36px;
 border-radius:999px;
-background:#56756f;
+background:#6f8f8c;
 color:white;
 text-decoration:none;
 font-size:18px;
 transition:.3s;
-}
-
-.btn:hover,
-.telegram-btn:hover{
-transform:translateY(-3px);
 }
 
 .phrase-block{
@@ -173,6 +171,7 @@ text-align:center;
 font-size:42px;
 line-height:1.5;
 font-family:'Cormorant Garamond',serif;
+color:#5f5a55;
 }
 
 .photo-vertical,
@@ -205,9 +204,19 @@ background:#f3ece4;
 }
 
 .timer-big{
-font-size:44px;
-font-weight:700;
+font-family:'Cormorant Garamond',serif;
+font-size:56px;
+font-weight:600;
+letter-spacing:1px;
 margin-bottom:40px;
+color:#6f8f8c;
+}
+
+.rsvp h2{
+font-family:'Cormorant Garamond',serif;
+font-size:68px;
+margin-bottom:30px;
+color:#7d6759;
 }
 
 .footer{
@@ -216,9 +225,19 @@ text-align:center;
 background:#e8ddd0;
 }
 
+.footer h2{
+font-family:'Cormorant Garamond',serif;
+font-size:74px;
+margin-bottom:24px;
+color:#5d5a56;
+}
+
 .footer p{
-font-size:24px;
-line-height:1.7;
+font-family:'Cormorant Garamond',serif;
+font-size:36px;
+letter-spacing:1px;
+line-height:1.5;
+color:#5f5a55;
 }
 
 .fade-up{
@@ -232,52 +251,74 @@ opacity:1;
 transform:none;
 }
 
-
 @media(max-width:900px){
 
-.restaurant-section{
-display:block !important;
-padding:90px 24px !important;
+.hero{
+padding-top:10px;
 }
 
-.restaurant-content{
-display:block !important;
-position:relative !important;
-width:100% !important;
-margin-bottom:28px !important;
-padding-left:0 !important;
+.hero h1{
+font-size:52px;
 }
 
-.restaurant-image{
-width:100% !important;
-display:block !important;
+.date-big{
+font-size:58px;
 }
 
-.restaurant-image img{
-width:100% !important;
-height:auto !important;
-display:block !important;
-border-radius:34px !important;
+.main-text{
+font-size:22px;
 }
 
-.restaurant-content h2{
-font-size:58px !important;
-margin-top:10px !important;
+.official{
+font-size:18px;
 }
 
 .story-quote{
-position:absolute !important;
-top:78px !important;
-right:18px !important;
-max-width:250px !important;
-text-align:right !important;
-z-index:5 !important;
+top:72px;
+right:28px;
+max-width:180px;
+font-size:36px;
 }
 
-.story-quote .story-line{
-font-size:22px !important;
-line-height:1.15 !important;
-margin-top:10px !important;
+.story-line{
+font-size:22px;
+}
+
+.restaurant-section{
+padding:90px 24px;
+}
+
+.restaurant-content h2{
+font-size:58px;
+}
+
+.restaurant-info p{
+font-size:20px;
+}
+
+.guest-time{
+font-size:24px;
+}
+
+.phrase-block{
+font-size:30px;
+padding-top:90px;
+}
+
+.timer-big{
+font-size:38px;
+}
+
+.rsvp h2{
+font-size:52px;
+}
+
+.footer h2{
+font-size:54px;
+}
+
+.footer p{
+font-size:28px;
 }
 
 }
