@@ -53,3 +53,10 @@ audio.play();
 });
 }
 });
+document.addEventListener("click", () => {
+  const music = document.getElementById("bgMusic");
+
+  if (music.paused) {
+    music.play();
+  }
+}, { once: true });
