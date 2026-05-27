@@ -18,7 +18,7 @@ overflow-x:hidden;
 
 .hero{
 height:100vh;
-background:url('images/photo1.jpg') center/cover no-repeat;
+background:url('photo1.jpeg') center/cover no-repeat;
 display:flex;
 justify-content:center;
 align-items:flex-start;
